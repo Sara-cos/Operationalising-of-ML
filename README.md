@@ -1,6 +1,6 @@
 # Opeartionalising of Machine Learning
 ## Overview
-In this project a model is trained using Automated Machine Learning. Then it is operationalised using Microsoft Azure Machine Learning. 
+In this project a model is trained using Automated Machine Learning. Then it is operationalised using Microsoft Azure Machine Learning. The operationalising is also done using pipeline automation.
 
 The dataset used here is a information of Portuguese Bank Marketing. The informations is based on phone calls , age, type of job, marital, education, has credit in defualt, housing, loan, type of contact , last contact, day of the week of the contact, duration in seconds, campaigns, and other variables. We want to predict if the client has subscribed a term deposit.
 The csv file consist of 32950 row and 21 columns. The csv file(https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/bankmarketing_train.csv). Here the loan column is the targeted column.
@@ -14,3 +14,12 @@ The steps involved:-
 6. Used Apachebenchmark for testing the model.
 
 ### Pipeline Automation
+1. An AutoML model is trained using the Bank Marketing dataset.
+2. We create a Pipeline, to automate the process and be able to repeat the process at any time.
+3. We examine the metrics and the best model, which used the Voting Ensemble algorithm.
+4. We test the model and examine the confusion metrics.
+5. We publish the pipeline to generate a REST endpoint that allows us to rerun the pipeline at any time using any tool that can submit HTTP requests.
+6. We send a request to the REST endpoint to rerun the pipeline.
+
+## Architectural Diagram
+
