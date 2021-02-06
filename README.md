@@ -22,8 +22,10 @@ The steps involved:-
 6. We send a request to the REST endpoint to rerun the pipeline.
 
 ## Architectural Diagram
-![]()
-![]()
+Train and deploy an AutoML model using Azure ML Studio
+![](/Images/Arch_1.png)
+Create, publish and consume a Pipeline for training an AutoML model, using a Jupyter Notebook and Azure ML SDK
+![](Images/Arch_2.png)
 
 ## Future Improvements
 1. The model can be used for thousands of people then we can deploy the model to AKS instead of ACI.
