@@ -22,7 +22,13 @@ The steps involved:-
 6. We send a request to the REST endpoint to rerun the pipeline.
 
 ## Architectural Diagram
-
+![]()
+![]()
 
 ## Future Improvements
-1. The model can 
+1. The model can be used for thousands of people then we can deploy the model to AKS instead of ACI.
+2. We can automatically schedule the pipeline to retrain the AutoML model on in regular intervals as required.
+3. We can publish the API swagger documentation to Azure also, so it is available for any user.
+4.The pipeline can be extended to include a step to deploy the best model to AKS.
+
+
