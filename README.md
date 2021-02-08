@@ -36,7 +36,7 @@ Create, publish and consume a Pipeline for training an AutoML model, using a Jup
 ## Screenshots
 
 Registered Datasets
-![](Images/dataset.png)
+![](Images/bank_dataset.png)
 
 The experiment is shown as completed
 ![](Images/AutoML_model.png)
@@ -56,7 +56,7 @@ Swagger runs on localhost showing the HTTP API methods and responses for the mod
 ![](Images/Swagger_2.png)
 
 endpoint.py script runs against the API producing JSON output from the model
-![](Images/logs_1.png)
+![](Images/endpoints_res.png)
 
 Pipeline section of Azure ML Studio, showing that the pipeline has been created
 ![](Images/pipeline_2.png)
@@ -64,17 +64,17 @@ Pipeline section of Azure ML Studio, showing that the pipeline has been created
 Pipelines section in Azure ML Studio, showing the Pipeline Endpoint
 ![](Images/pipeline_endpoints.png)
 
+The Bankmarketing dataset with the AutoML module
+![](Images/bank_dataset.png)
+
 The Published Pipeline overview, showing a REST endpoint and a status of ACTIVE
 ![](Images/pipeline_overview.png)
 
 Jupyter Notebook showing the Use RunDetails Widget shows the step runs
-![](Images/logs_1.png)
+![](Images/rundetails.png)
 
-
-![](Images/logs_1.png)
-
-
-![](Images/logs_1.png)
+ML Studio showing the scheduled run
+![](Images/.png)
 
 ## Screencast
 
