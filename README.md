@@ -56,7 +56,7 @@ Swagger runs on localhost showing the HTTP API methods and responses for the mod
 ![](Images/Swagger_2.png)
 
 endpoint.py script runs against the API producing JSON output from the model
-![](Images/endpoints_res.png)
+![](Images/endpoint_result.png)
 
 Pipeline section of Azure ML Studio, showing that the pipeline has been created
 ![](Images/pipeline_2.png)
@@ -68,13 +68,13 @@ The Bankmarketing dataset with the AutoML module
 ![](Images/bank_dataset.png)
 
 The Published Pipeline overview, showing a REST endpoint and a status of ACTIVE
-![](Images/pipeline_overview.png)
+![](Images/pipeline_overview_page.png)
 
 Jupyter Notebook showing the Use RunDetails Widget shows the step runs
-![](Images/rundetails.png)
+![](Images/rundetails_page.png)
 
 ML Studio showing the scheduled run
-![](Images/.png)
+![](Images/schdule_pipeline.png)
 
 ## Screencast
 
