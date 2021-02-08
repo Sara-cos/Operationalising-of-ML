@@ -59,7 +59,7 @@ endpoint.py script runs against the API producing JSON output from the model
 ![](Images/endpoint_result.png)
 
 Pipeline section of Azure ML Studio, showing that the pipeline has been created
-![](Images/pipeline_2.png)
+![](Images/pipeline_created.png)
 
 Pipelines section in Azure ML Studio, showing the Pipeline Endpoint
 ![](Images/pipeline_endpoints.png)
