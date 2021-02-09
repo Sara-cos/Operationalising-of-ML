@@ -11,7 +11,7 @@ The steps involved:-
 3. We enable the Application Insights feature and review the generated logs using the logs.py script.
 4. We publish the deployed model API swagger documentation by running a docker container in our localhost. For which download the endpoint swagger.json file from Azure ML.
 5. We consume the scoring API to clasify new instances by running the endpoint.py script in our localhost. We must get the scoring_uri and key for the deployed model endpoint and update the script.
-6. Used Apachebenchmark for testing the model.
+6. Used Apache benchmark for testing the model.
 
 ### Pipeline Automation
 1. An AutoML model is trained using the Bank Marketing dataset.
@@ -58,6 +58,9 @@ Swagger runs on localhost showing the HTTP API methods and responses for the mod
 endpoint.py script runs against the API producing JSON output from the model
 ![](Images/endpoint_result.png)
 
+Apache Benchmark runs against the HTTP API using authentication keys to retrieve performance results
+![](Images/benchmark.png)
+
 Pipeline section of Azure ML Studio, showing that the pipeline has been created
 ![](Images/pipeline_created.png)
 
@@ -78,4 +81,4 @@ ML Studio showing the scheduled run
 
 ## Screencast
 
-https://youtu.be/k1Qu_zx7bBM
+https://youtu.be/llkf9IiDnmQ
