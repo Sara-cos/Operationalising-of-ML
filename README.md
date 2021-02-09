@@ -10,7 +10,7 @@ The steps involved:-
 2. Deployed the best model to an ACI (Azure Container Instance) using Azure ML Studio.
 3. We enable the Application Insights feature and review the generated logs using the logs.py script.
 4. We publish the deployed model API swagger documentation by running a docker container in our localhost. For which download the endpoint swagger.json file from Azure ML.
-5. We consume the scoring API to clasify new instances by running the endpoint.py script in our localhost. We must get the scoring_uri and key for the deployed model endpoint and update the script.
+5. We consume the scoring API to clasify new instances by running the endpoint.py script in our localhost. We must get the scoring_uri and key for the deployed model endpoint and update the script.(Deployment was done using service [ACI] and consumption using endpoint)
 6. Used Apache benchmark for testing the model.
 
 ### Pipeline Automation
